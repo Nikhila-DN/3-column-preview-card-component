@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+:root{
+    --orange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+    --white:hsla(0, 0%, 100%, 0.75);
+    --gray:hsl(0, 0%, 95%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    margin: 15%;
+    height: 24rem;
+    width: auto;
+}
+
+.car{
+    padding: 5%;
+    margin: auto;
+    height: 24rem;
+    width: inherit;
+}
+
+.car img{
+    width: auto;
+    height: auto;
+    padding-bottom: 15%;
+}
+
+.car-description{
+    color: var(--white);
+    padding-bottom: 25%;
+}
+
+.car-type{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--gray);
+    height: 3rem;
+    text-transform: uppercase;
+    padding-bottom: 17%;
+}
+p, button{
+    font-family: "Lexend Deca", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+button{
+    background-color: var(--gray);
+    border: 2px solid white;
+    border-radius: 10rem;
+    padding: 5% 10%;
+}
+
+.sedan button{
+   color: var(--orange);
+}
+.suv button{
+    color: var(--Darkcyan);
+}
+.lux button{
+    color: var(--Verydarkcyan);
+}
+.sedan button:hover{
+    background-color: var(--orange);
+    color: white;
+}
+.suv button:hover{
+    background-color: var(--Darkcyan);
+    color: white;
+}
+.lux button:hover{
+    background-color: var(--Verydarkcyan);
+    color: white;
+}
+
+.sedan{
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.lux{
+    border-radius: 0 1rem 1rem 0;
+}
+
+@media(max-width:720px){
+    .container{
+        display: block;
+        border-radius: 1rem;
+        height: auto;
+        margin: 5%;
+    }
+    .car-description{
+        height: auto;
+    }
+    .car{
+        padding: 10%;
+        height: auto;
+    }
+    .car-type, .car-description{
+        padding-bottom: 10%;
+    }
+    .sedan{
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+    .lux{
+        border-radius: 0rem 0rem 1rem 1rem;
+    }
+}
