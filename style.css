@@ -36,7 +36,8 @@ body{
 
 .car-description{
     color: var(--white);
-    padding-bottom: 25%;
+    line-height:1.5rem;
+    padding-bottom: 20%;
 }
 
 .car-type{
