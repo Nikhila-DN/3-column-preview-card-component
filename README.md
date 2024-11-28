@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/Nikhila-DN/3-column-preview-card-component.git
-- Live Site URL: 
+- Live Site URL: https://nikhila-dn.github.io/3-column-preview-card-component/
 ## My process
 
 ### Built with
