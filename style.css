@@ -9,14 +9,14 @@
 }
 
 body{
-    background-color:var(--white) ;
+    background-color:var(--gray) ;
 }
 
 .container{
     display: flex;
     justify-content: center;
     border-radius: 1rem;
-    margin: 10%;
+    margin: 12.5%;
     height: 24rem;
     width: auto;
 }
