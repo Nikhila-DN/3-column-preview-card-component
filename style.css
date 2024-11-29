@@ -36,8 +36,10 @@ body{
 
 .car-description{
     color: var(--white);
-    line-height:1.5rem;
+    line-height: 1.5rem;
     padding-bottom: 20%;
+    height: 9rem;
+
 }
 
 .car-type{
@@ -49,37 +51,38 @@ body{
     text-transform: uppercase;
     padding-bottom: 17%;
 }
-p, button{
+p,.car a{
     font-family: "Lexend Deca", serif;
     font-weight: 400;
     font-size: 15px;
 }
 
-button{
+.car a{
     background-color: var(--gray);
     border: 2px solid white;
     border-radius: 10rem;
     padding: 5% 10%;
+    text-decoration: none;
 }
 
-.sedan button{
+.sedan a{
    color: var(--orange);
 }
-.suv button{
+.suv a{
     color: var(--Darkcyan);
 }
-.lux button{
+.lux a{
     color: var(--Verydarkcyan);
 }
-.sedan button:hover{
+.sedan a:hover{
     background-color: var(--orange);
     color: white;
 }
-.suv button:hover{
+.suv a:hover{
     background-color: var(--Darkcyan);
     color: white;
 }
-.lux button:hover{
+.lux a:hover{
     background-color: var(--Verydarkcyan);
     color: white;
 }
