@@ -38,8 +38,7 @@ body{
     color: var(--white);
     line-height: 1.5rem;
     padding-bottom: 10%;
-    height: 9rem;
-
+    height: 9rem !important;
 }
 
 .car-type{
